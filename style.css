@@ -1,0 +1,28 @@
+body{
+    background-image: url(img/travelsBackgroundImg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box1{
+
+    margin-left: 50%;
+    background-color: rgba(100, 148, 237, 0.234);
+    width: 25%;
+    padding: 30px;
+    margin-top:5%;border-radius: 5%;
+}
+#title{
+    font-family: monospace;
+    text-align: center;
+}
+.inputFeeld{
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: cornflowerblue;
+}
+
+.secondCol{
+    padding-left: 10%;
+}
