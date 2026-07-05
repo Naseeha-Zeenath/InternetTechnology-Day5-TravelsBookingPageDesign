@@ -26,3 +26,11 @@ body{
 .secondCol{
     padding-left: 10%;
 }
+
+.btn{
+    color: antiquewhite;
+    background-color: darkblue;
+    font-family: fantasy;
+    padding: 2%;
+    border-radius: 20px;
+}
