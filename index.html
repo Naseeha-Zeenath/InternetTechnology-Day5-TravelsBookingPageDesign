@@ -6,124 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tavel Booking</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-
     
+    <section class="loadpageMain">
+        <nav class="navbar navbar-expand-lg">
 
-        <table class="box1">
-            
-            <tr>
-                <td colspan="2">
-                    <h1 id="title">Travel Booking Form</h1>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>First Name</label> <br>
-                    <input class="inputFeeld" type="text" placeholder="Rony" id="txtFirstName">
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>Last Name</label> <br>
-                    <input class="inputFeeld" type="text" placeholder="Jone" id="txtLastName">
-                    <br><br>
-                </td>
-            </tr>
+            <div class="container">
 
-            <tr>
-                <td>
-                    <label>Phone</label> <br>
-                    <input class="inputFeeld" type="text" placeholder="0765244678" id="txtPhoneNum">
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>Email</label><br>
-                    <input class="inputFeeld" type="text" placeholder="Jone@gmail.com" id="txtEmail">
-                    <br><br>
-                </td>
-            </tr>
+                <a class="navbar-brand text-white fw-bold" href="registration.html">
+                    Register now
+                </a>
 
-            <tr>
-                <td>
-                    <label>From</label> <br>
-                    <input class="inputFeeld" type="text" placeholder="Colombo" id="txtFrom">
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>To</label> <br>
-                    <input class="inputFeeld" type="text" placeholder="Matara" id="txtTo">
-                    <br><br>
-                </td>
-            </tr>
+                <ul class="navbar-nav ms-auto">
 
-            <tr>
-                <td>
-                    <label>Adults</label> <br>
-                    <input class="inputFeeld" type="number" placeholder="0" id="txtAdults">
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>Children</label> <br>
-                    <input class="inputFeeld" type="number" placeholder="0" id="txtChildren">
-                    <br><br>
-                </td>
-            </tr>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
 
-            <tr>
-                <td>
-                    <label>Reservation Date</label> <br>
-                    <input class="inputFeeld" type="date" id="txtDate">
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>Reservation Time</label> <br>
-                    <input class="inputFeeld" type="time" id="txtTime">
-                    <br><br>
-                </td>
-            </tr>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Destination</a>
+                    </li>
 
-            <tr>
-                <td>
-                    <label>journey type</label> <br>
-                    <select class="inputFeeld" name="type">
-                        <option value="" id="">On way</option>
-                        <option value="" id="txtCar">Car</option>
-                        <option value="" id="txtVan">Van</option>
-                        <option value="" id="txtBike">Bike</option>
-                        <option value="" id="txtBus">Bus</option>
-                    </select>
-                    <br><br>
-                </td>
-                <td class="secondCol">
-                    <label>Include Travel Insurance</label> <br>
-                    <label>Yes<input class="inputFeeld" type="radio" id="c"> | </label>
-                    <label>No<input class="inputFeeld" type="radio" id="txtInsuranceNo"></label>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2"><br></td>
-            </tr>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
 
-            <tr>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
 
-                <td colspan="2">
-                    <h2 style="text-align: center;">
-                        <input type="button" value="Conform Booking" onclick="btnConformBooking()" class="btn">
-                    </h2>
-                </td>
-            </tr>
-            
-        </table>
+                </ul>
 
-        <script src="app.js"></script>
+            </div>
 
-   
-
-
-
-
+        </nav>
+    </section>
 </body>
 
 </html>
