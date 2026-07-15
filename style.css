@@ -60,12 +60,23 @@
 
 }
 
-.carousel-custom{
-    width:75%;
-}
+
 
 .carousel-custom img{
     height:600px;      /* Change this if you want */
     object-fit:cover;
+    border-radius: 10px;
+   
 }
 
+.carousel-custom{
+    width:75%;
+    margin:auto;
+    border-radius:20px;
+    overflow:hidden;
+
+    box-shadow:
+        0 0 15px rgba(0, 255, 255, 0.667),
+        0 0 30px rgba(0, 255, 255, 0.814),
+        0 0 50px rgba(0, 255, 255, 0.527);
+}
