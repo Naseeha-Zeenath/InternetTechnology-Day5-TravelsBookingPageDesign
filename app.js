@@ -10,10 +10,6 @@ function btnConformBooking(){
     let txtDate = document.getElementById("txtDate");
     let txtTime = document.getElementById("txtTime");
 
-    // let txtCar = document.getElementById("txtCar");
-    // let txtVan = document.getElementById("txtVan");
-    // let txtBike = document.getElementById("txtBike");
-    // let txtBus = document.getElementById("txtBus");
   
     let txtInsuranceYes = document.getElementById("txtInsuranceYes");
     let txtInsuranceNo = document.getElementById("txtInsuranceNo");
