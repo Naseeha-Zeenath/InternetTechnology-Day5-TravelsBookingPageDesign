@@ -22,4 +22,11 @@ function btnConformBooking() {
 
     console.log(bookingList);
 
+    localStorage.setItem("bookingList",JSON.stringify(booking));
+
+}
+
+
+function btnSearchBooking(){
+    alert("search");
 }

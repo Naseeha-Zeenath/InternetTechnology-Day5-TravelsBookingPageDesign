@@ -36,15 +36,33 @@
     border: none;
     
 }
+.btnSearch{
+    color: rgb(46, 33, 17);
+    background-color: rgb(235, 199, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4%;
+    border-radius: 20px;
+    border: none;
+    
+}
 
 .btn:hover{
     cursor: pointer;
     box-shadow: 1px 1px 15px darkblue;
 }
+.btnSearch:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(122, 131, 1);
+}
+
 
 .btn:active{
    background-color: cornflowerblue;
     color: black;
+}
+.btnSearch:active{
+   background-color: rgb(134, 105, 12);
+    color: rgb(238, 226, 226);
 }
 *{
     margin:0;
