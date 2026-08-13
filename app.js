@@ -1,5 +1,5 @@
 
-const bookingList = [];
+const bookingList = JSON.parse(localStorage.getItem("bookingList"));
 
 
 
@@ -28,11 +28,16 @@ function btnConformBooking() {
 
 
 function btnSearchBooking(){
-    let list = JSON.parse(localStorage.getItem());
 
-    let booking = list.find(booking =>{
-        return booking.PhoneNum === document.getElementById("txtPhoneNum").value
-    });
+       let bookingList = JSON.parse(localStorage.getItem("bookingList"));
+
+
+    let booking = bookingList.find(booking => {
+        return booking.FirstName == document.getElementById("txtFirstName").value
+    })
+
+
+   
 
     document.getElementById("txtFirstName").value = booking.FirstName;
     document.getElementById("txtLastName").value = booking.LastName;
@@ -46,4 +51,19 @@ function btnSearchBooking(){
     document.getElementById("txtTime").value = booking.Time;
 
     console.log(booking);
+}
+
+function btnDeleteBooking(){
+    let bookingList =  JSON.parse(localStorage.getItem("bookingList"));
+
+    let bookingIndex =  bookingList.findIndex(booking =>{
+        return booking.PhoneNum === document.getElementById("txtFirstName").value
+    })
+
+
+    bookingList.splice(index,1);
+
+    localStorage.setItem("bookingList", JSON.stringify(bookingList));
+
+    console.log(bookingList);
 }

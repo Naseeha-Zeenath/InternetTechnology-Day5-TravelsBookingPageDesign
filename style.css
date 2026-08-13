@@ -31,7 +31,7 @@
     color: antiquewhite;
     background-color: darkblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 4%;
+    padding: 8%;
     border-radius: 20px;
     border: none;
     
@@ -40,10 +40,29 @@
     color: rgb(46, 33, 17);
     background-color: rgb(235, 199, 39);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 4%;
+    padding: 8%;
     border-radius: 20px;
     border: none;
     
+}
+
+.btnDelete{
+    color: antiquewhite;
+    background-color: rgb(129, 16, 25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8%;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: none;
+}
+.btnUpdate{
+    color: rgb(46, 33, 17);
+    background-color: rgb(7, 134, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8%;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: none;
 }
 
 .btn:hover{
@@ -54,7 +73,14 @@
     cursor: pointer;
     box-shadow: 1px 1px 15px rgb(122, 131, 1);
 }
-
+.btnDelete:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(230, 37, 12);
+}
+.btnUpdate:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(22, 70, 50);
+}
 
 .btn:active{
    background-color: cornflowerblue;
@@ -64,6 +90,15 @@
    background-color: rgb(134, 105, 12);
     color: rgb(238, 226, 226);
 }
+.btnDelete:active{
+   background-color: rgb(237, 139, 100);
+    color: black;
+}
+.btnUpdate:active{
+   background-color: rgb(8, 87, 8);
+    color: rgb(238, 226, 226);
+}
+
 *{
     margin:0;
     padding:0;
